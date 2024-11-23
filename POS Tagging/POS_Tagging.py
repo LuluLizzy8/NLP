@@ -88,7 +88,7 @@ def main(likelihood_transition_file, words_file):
     words = load_words(words_file)
 
     sentence = []
-    output_file = "submission.pos"
+    output_file = "output.pos"
 
     open(output_file, 'w').close()
 
