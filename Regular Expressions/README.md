@@ -11,7 +11,7 @@ This project extracts dollar amounts or telephone numbers from text files using 
 ### Output: 
  - returns each match into the output file "dollar_output.txt", one match per line
 ### Command: 
-     `python dollar_regexp.py <input_file_name>`
+     python dollar_regexp.py <input_file_name>
      
 ## telephone_regexp.py:
 ### Features:
@@ -20,4 +20,4 @@ This project extracts dollar amounts or telephone numbers from text files using 
 ### Output: 
  - returns each match into the output file "telephone_output.txt", one match per line
 ### Command: 
-     `python telephone_regexp.py <input_file_name>`
+     python telephone_regexp.py <input_file_name>
