@@ -8,19 +8,16 @@ This project extracts dollar amounts or telephone numbers from text files using 
  - includes numbers and decimals
  - includes dollar signs, the words "dollar", "dollars", "cent", and "cents"
  - excludes currencies that are not stated in terms of dollars and cents
-
 ### Output: 
  - returns each match into the output file "dollar_output.txt", one match per line
-
-Command: 
+### Command: 
      `python dollar_regexp.py <input_file_name>`
-
+     
 ## telephone_regexp.py:
-Features:
+### Features:
  - handles cases with and without area codes
  - handles different punctuation 
-
-Output: returns each match into the output file "telephone_output.txt", one match per line
-
-Command: 
+### Output: 
+ - returns each match into the output file "telephone_output.txt", one match per line
+### Command: 
      `python telephone_regexp.py <input_file_name>`
